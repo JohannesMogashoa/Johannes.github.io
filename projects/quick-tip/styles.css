@@ -1,0 +1,68 @@
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(228, 21, 21), rgb(22, 100, 190));
+    padding: 1.5rem 1.6rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px, lightgray;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 3rem;
+    color: antiquewhite;
+    letter-spacing: 2px;
+    font-style: oblique;
+    text-shadow: 0 5px 1px black;
+    font-weight: 900;
+}
+section{
+    background: rgb(224, 224, 224);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgb(14, 13, 13);
+    padding: 10px;
+}
+
+section > div{
+    padding: 10px 5px ;
+    display: flex;
+}
+
+div label{
+    flex: 1;
+    align-self: center;
+}
+
+input[type="number"]{
+    font-family: inherit;
+    flex: 3;
+    padding: 0.3rem 0 0.3rem 0.3rem;
+    border: 1px solid lightgray;
+    box-shadow: inset 0 2px 2px rgb(51, 48, 48);
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.total{
+    font-size: large;
+    font-weight: 500;
+}
+
+input[type="range"]{
+    appearance: none;
+    width: 100%;
+    background: #eeeeee;
+    border-radius: 10px;
+    outline-color: rgb(22, 100, 190);
+}
+

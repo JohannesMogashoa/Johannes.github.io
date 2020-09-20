@@ -1,0 +1,106 @@
+/* HTML TAG ELEMENTS */
+body{
+    font-family: 'Recursive', sans-serif;
+}
+
+/* CLASSES FOR NAV BAR */
+.hamburger-icon{
+    padding-right: 20px;
+}
+.navbar-toggler.toggler-example {
+  cursor: pointer;
+  margin-right: 10px;
+  border: none;
+}
+.navbar-brand{
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+    padding: 10px 20px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+.nav-link{
+    color: black;
+    padding: 10px 20px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.main-heading{
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+   
+    margin: 20px 0;
+}
+.main-heading-menu{
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 0 20px;
+    margin: 20px 20px;
+}
+.main-heading-test{
+    font-family: 'Bungee', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 20px;
+    margin: 20px 20px;
+}
+.subheading{
+    text-align: justify;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.menu{
+    text-align: justify;
+}
+.small-text{
+    font-size: .75rem;
+}
+.price{
+    font-weight: bold;
+}
+
+/* Carousel */
+.d-block{
+    height: 625px;
+}
+
+.col-sm{
+    margin: 5px;
+}
+.see-more{
+    text-align: center;
+    margin: 20px;
+}
+.events{
+    height: 450px;
+}
+.gallery{
+    padding-top: 70px;
+    margin-top: 50px;
+}
+
+/* Footer */
+.the-footer{
+    text-align: center;
+    padding: 20px auto;
+    margin: auto;
+}
+.number{
+    padding-bottom: 20px;
+}
+/* .details{
+    text-align: left;
+    margin-left: 40%;
+} */

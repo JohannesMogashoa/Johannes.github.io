@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Love Calculator</title>
+  </head>
+  <body onload="init()">
+    <main>
+      <div class="banner">
+        <img src="./assets/puzzle.jpg" alt="heart-puzzle" />
+        <h1>LOVE CALCULATOR</h1>
+      </div>
+
+      <div class="welcomePage" id="welcomePage">
+        <div class="firstName">
+          <h2>Enter first name:</h2>
+          <input type="text" id="firstName" />
+          <span class="invalid" id="invalid"></span>
+        </div>
+
+        <div class="plus-sign">
+          <img src="./assets/plus-sign-svg.svg" alt="plus-sign" />
+        </div>
+
+        <div class="secondName">
+          <h2>Enter second name:</h2>
+          <input type="text" id="secondName" />
+          <span class="invalid" id="invalidSecond"></span>
+        </div>
+
+        <div class="calc-button-section">
+          <button id="calc-button" onclick="calcLove()">CALCULATE</button>
+        </div>
+      </div>
+
+      <div class="results-section" id="results">
+        <h2>Results:</h2>
+        <section>
+          <div class="percent-wrapper">
+            <span id="percent">0%</span>
+          </div>
+
+          <div class="comment-wrapper">
+            <h2 id="resultOutput"></h2>
+          </div>
+        </section>
+
+        <div>
+          <button class="reload-btn" onclick="endGame()">End Game</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

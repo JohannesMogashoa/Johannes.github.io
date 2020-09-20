@@ -1,0 +1,81 @@
+html{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+body{
+    background-color: rgb(97, 15, 97);
+    margin: 0;
+}
+
+main{
+    background-color: antiquewhite;
+    margin: 0 auto;
+    width: 70vw;
+    height: 80vh;
+    padding: 1.6rem;
+    border: 0.6rem solid rgb(95, 28, 8);
+    border-width: 0 0.6rem 0.6rem 0.6rem;
+    border-radius: 0 0 2rem 2rem;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+#gameHome{
+    display: block;
+}
+
+.button-wrapper{
+    padding: 50px 0 0 0;
+}
+
+button{
+    display: block;
+    width: 100%;
+    background-color: rgb(10, 202, 202);
+    height: 50px;
+    font-weight: 600;
+    font-size: 15px;
+
+    border-radius: 2rem 2rem 0 0;
+    border: none;
+    outline: none;
+}
+
+.button-wrapper button:last-child{
+    background-color: brown;
+    border-radius: 0 0 2rem 2rem;
+}
+
+#startGame{
+    padding: 20px 0 0 0;
+    text-align: center;
+    align-content: center;
+}
+
+#newGame{
+    margin: 0 auto;
+    width: 100px;
+    border-radius: 0;
+    text-align: center;
+}
+
+input{
+    width: 40%;
+    height: 20px;
+    margin: 10px auto 20px;
+    text-align: center;
+}
+
+.stats div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin-top: 15px;
+    padding: 10px 0;
+    align-items: center;
+}
