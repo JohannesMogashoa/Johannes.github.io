@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img src="takealot-logo.svg" alt="site-logo" id="header-img">
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a href="#product-info" class="nav-link">Info</a>
+                </li>
+                <li>
+                    <a href="#product-vid" class="nav-link">Video</a>
+                </li>
+                <li>
+                    <a href="#pricing" class="nav-link">Pricing</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="form-wrapper">
+            <h3>Blows other phones out of the water.</h3>
+            <form action="submitted.html" id="form">
+                <input type="email" name="email" id="email" placeholder="Enter your email here..." required>
+                <input id="submit" type="submit" value="Submit">
+            </form>
+        </div>
+        <section id="product-info">
+            <div class="img-wrapper">
+                <img src="iphone.jpg" alt="iPhone 12 Pacific Blue" class="product-img">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">
+                    Apple iPhone 12 Pro 128GB - Pacific Blue
+                </h2>
+                <h5>Product Code 000000000010134164</h5>
+                <hr>
+                <div>
+                    <ul>
+                        <li class="features">6.1-inch Super Retina XDR display</li>
+                        <li class="features">Ceramic Shield</li>
+                        <li class="features">A14 Bionic chip</li>
+                        <li class="features">Pro camera system with 12MP Ultra Wide</li>
+                        <li class="features">LiDAR Scanner</li>
+                        <li class="features">12MP TrueDepth front camera</li>
+                        <li class="features">4K Dolby Vision HDR recording</li>
+                        <li class="features">1 Year Warranty</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="product-vid">
+            <iframe id="video" width="100%" height="500px" src="https://www.youtube.com/embed/cnXapYkboRQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section id="pricing">
+            <div class="card">
+                <h2 class="cash-price">R22,499</h2>
+                <p>Discovery Miles <b>224 990</b>  •  uCount <b>224 990</b></p>
+                <p>Delivery available in 2 to 5 working days</p>
+            </div>
+            <div class="card">
+                <p>Pay as little as</p>
+                <h3>R1,403 * <span>pm x 24</span></h3>
+                <p>months</p>
+                <p>Rate: <b>23.75%</b>   •   Credit Price: <b>R33,672</b></p>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

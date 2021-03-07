@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.title{
+    font-size: 20px;
+}
+
+.bio{
+    font-style: oblique;
+}
+
+.img-div{
+    height: 500px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.img-wrapper img{
+    display: block;
+    margin: 0 auto;
+    height: auto;
+    max-width: 100%;
+}
+#img-caption{
+    font-style: oblique;
+    color: rgba(0, 0, 0, 0.651);
+}
